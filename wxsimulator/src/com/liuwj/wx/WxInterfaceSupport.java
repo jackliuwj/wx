@@ -212,13 +212,13 @@ public class WxInterfaceSupport {
             System.out.println(httppost.toString());
             Header[] headers= httppost.getAllHeaders();
             System.out.println(headers.length);
-            for(int i=0;i<headers.length;i++){
-            	System.out.println(headers[i].getName());
-            	System.out.println(headers[i].getValue());
-                System.out.println("----------------------------------------");
-
-            	
-            }
+//            for(int i=0;i<headers.length;i++){
+//            	System.out.println(headers[i].getName());
+//            	System.out.println(headers[i].getValue());
+//                System.out.println("----------------------------------------");
+//
+//            	
+//            }
             
 
             HttpResponse response = httpclient.execute(httppost);
